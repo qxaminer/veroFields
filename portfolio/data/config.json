@@ -1,0 +1,27 @@
+{
+  "sketches": {
+    "terrain": {
+      "title": "Terrain Project",
+      "description": "A project that visualizes terrain using p5.js.",
+      "author": "Your Name",
+      "version": "1.0.0"
+    },
+    "swarm": {
+      "title": "Swarm Project",
+      "description": "A project that simulates swarm behavior using p5.js.",
+      "author": "Your Name",
+      "version": "1.0.0"
+    },
+    "audio-viz": {
+      "title": "Audio Visualization Project",
+      "description": "A project that visualizes audio input using p5.js.",
+      "author": "Your Name",
+      "version": "1.0.0"
+    }
+  },
+  "settings": {
+    "canvasWidth": 800,
+    "canvasHeight": 600,
+    "backgroundColor": "#1a1a2e"
+  }
+}
