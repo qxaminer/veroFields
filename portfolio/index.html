@@ -1,7 +1,33 @@
-<div class="project-grid">
-    <div class="project-card">
-        <h2>Favorite Torus</h2>
-        <p>A mesmerizing 3D torus visualization with dynamic colors</p>
-        <a href="projects/faveTorus/index.html">View Project →</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Projects</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-processing.min.js"></script>
+   
+</head>
+<body>
+    <h1>Creative Coding Portfolio</h1>
+    <div class="project-grid">
+        <!-- Torus Project -->
+        <div class="project-card">
+            <div class="project-thumbnail">
+                <img 
+                    src="assets/thumbnails/torus.png" 
+                    alt="Torus Visualization"
+                    onerror="console.error('Failed to load:', this.src); this.style.border='2px solid red';"
+                />
+            </div>
+            <div class="project-info">
+                <h2>Favorite Torus</h2>
+                <p>A mesmerizing 3D torus visualization with dynamic colors</p>
+                <a href="projects/faveTorus/index.html">View Project →</a>
+            </div>
+        </div>
     </div>
-</div>
+</body>
+</html>
