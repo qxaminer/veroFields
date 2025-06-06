@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favorite Torus</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 20px; 
+            background: #1a1a2e; 
+            color: #e94560;
+            font-family: 'Courier New', monospace;
+        }
+        #sketch-container { 
+            display: flex; 
+            justify-content: center; 
+            margin: 20px 0; 
+        }
+        .controls button {
+            background: #0f3460;
+            color: #e94560;
+            border: 1px solid #e94560;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favorite Torus</h1>
+    <p>A colorful rotating torus made of small spheres</p>
+    <div id="sketch-container"></div>
+    <div class="controls">
+        <button onclick="resetSketch()">Reset Rotation</button>
+    </div>
+    <p><a href="../../index.html" style="color: #e94560;">← Back to Portfolio</a></p>
+    <script src="sketch.js"></script>
+</body>
+</html>
